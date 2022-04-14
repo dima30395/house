@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "PostNoBillsJaffna";
+    font-style: normal;
+    font-weight: 600;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: url("../fonts/PostNoBillsJaffna-SemiBold.woff2") format("woff2"), /* Если браузер не поддерживает woff2, загрузит woff */
+    url("../fonts/PostNoBillsJaffna-SemiBold.woff") format("woff");
+}
